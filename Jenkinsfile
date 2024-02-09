@@ -1,6 +1,6 @@
 pipeline {
    agent any
-
+ 
    stages {
       stage('Verify Branch') {
          steps {
@@ -44,5 +44,4 @@ pipeline {
    //       sh(script: 'docker compose down')
    //    }
    // }
-}
-}
+}}
